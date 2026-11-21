@@ -3,9 +3,9 @@ using namespace std;
 
 class Box {
     private:
-        double length;   // Length of a box
-        double breadth;  // Breadth of a box
-        double height;   // Height of a box
+        double length;
+        double breadth;
+        double height;
 
     public:
         void setSize(double len, double bre, double hei) {
