@@ -6,33 +6,15 @@ using namespace std;
 // Practice: function overloading — one name, different input parameters.
 
 void showResult(string name) {
-    string name;
-
-    cout << "Name of pilot: " << name;
-    cin >> name;
+    cout << "Name of pilot: " << name << endl;
 }
 
 void showResult(string name, int position) {
-    int position;
-
-    cout << "Name of pilot: " << name << endl;
-    cin >> name;
-
     cout << "Position: " << position;
-    cin >> position;
 }
 
 void showResult(string name, int position, int points) {
-    int points;
-
-    cout << "Name of pilot: " << name << endl;
-    cin >> name;
-
-    cout << "Position: " << position;
-    cin >> position;
-
-    cout << "Count of pilots: " << count<< endl;
-    cin >> points;
+    cout << "Count of pilots: " << points<< endl;
 }
 
 int main() {
