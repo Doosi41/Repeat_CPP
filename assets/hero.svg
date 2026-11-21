@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Repeat_CPP — Object-Oriented Programming in C++">
+<defs>
+<linearGradient id="ai" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9f0a"/><stop offset="0.35" stop-color="#ff375f"/><stop offset="0.7" stop-color="#bf5af2"/><stop offset="1" stop-color="#0a84ff"/><animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="9s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="titanium" x1="0" y1="0" x2="0" y2="1"><stop offset="0.2" stop-color="#ffffff"/><stop offset="1" stop-color="#8e8e93"/></linearGradient>
+<linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161618"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<radialGradient id="spot" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow" cx="0.82" cy="0.18" r="0.55"><stop offset="0" stop-color="#bf5af2" stop-opacity="0.16"/><stop offset="1" stop-color="#bf5af2" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="1200" height="600" rx="32"/></clipPath>
+</defs>
+<g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<g clip-path="url(#card)"><rect width="1200" height="600" fill="#000000"/><rect width="1200" height="600" fill="url(#spot)"/><rect width="1200" height="600" fill="url(#glow)"/></g>
+<rect x="0.5" y="0.5" width="1199" height="599" rx="31.5" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+<text x="72" y="220" font-size="102" font-weight="800" letter-spacing="-4" fill="url(#titanium)" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace">Repeat_CPP</text>
+<text x="76" y="300" font-size="42" font-weight="700" letter-spacing="-1" fill="url(#ai)">Object-Oriented Programming</text>
+<text x="76" y="354" font-size="24" font-weight="500" fill="#8e8e93">Повторяю ООП на C++ · шаг за шагом · C++17</text>
+<g transform="translate(742,130)">
+<rect width="386" height="340" rx="24" fill="url(#tile)" stroke="#ffffff" stroke-opacity="0.1"/>
+<g font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
+<text x="28" y="52"><tspan fill="#ff375f">class</tspan><tspan fill="#64d2ff"> Box</tspan><tspan fill="#8e8e93"> {</tspan></text>
+<text x="52" y="90"><tspan fill="#bf5af2">private</tspan><tspan fill="#8e8e93">:</tspan></text>
+<text x="76" y="126"><tspan fill="#0a84ff">double</tspan><tspan fill="#e5e5ea"> length</tspan><tspan fill="#8e8e93">;</tspan></text>
+<text x="76" y="162"><tspan fill="#0a84ff">double</tspan><tspan fill="#e5e5ea"> breadth</tspan><tspan fill="#8e8e93">;</tspan></text>
+<text x="52" y="198"><tspan fill="#bf5af2">public</tspan><tspan fill="#8e8e93">:</tspan></text>
+<text x="76" y="234"><tspan fill="#0a84ff">double</tspan><tspan fill="#e5e5ea"> volume</tspan><tspan fill="#8e8e93">();</tspan></text>
+<text x="28" y="270"><tspan fill="#8e8e93">};</tspan></text>
+<text x="28" y="314"><tspan fill="#636366">// hide data, show doors</tspan></text>
+</g>
+</g>
+</g>
+</svg>
