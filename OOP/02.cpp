@@ -1,35 +1,45 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-class Animal {
-    public:
-        virtual void makeSound() {
-            cout << "Animal sound"<< endl;
-        }
-};
+// Practice: polymorphism — one command produces different results for different objects.
 
-class Dog : public Animal {
-    public:
-        void makeSound() {
-            cout << "Woof!" << endl;
-        }
-};
+void showResult(string name) {
+    string name;
 
-class Cat : public Animal {
-    public:
-        void makeSound() {
-            cout << "Myau!" << endl;
-        }
-};
+    cout << "Name of pilot: " << name;
+    cin >> name;
+}
 
-void sound(Animal& a) { 
-    a.makeSound();
+void showResult(string name, int position) {
+    string name;
+    int position;
+
+    cout << "Name of pilot: " << name << endl;
+    cin >> name;
+
+    cout << "Position: " << position;
+    cin >> position;
+}
+
+void showResult(string name, int position, int points) {
+    string name;
+    int position;
+    int points;
+
+    cout << "Name of pilot: " << name << endl;
+    cin >> name;
+
+    cout << "Position: " << position;
+    cin >> position;
+
+    cout << "Count of pilots: " << count<< endl;
+    cin >> points;
 }
 
 int main() {
-    Cat c;
-    Dog d;
-    sound(c);
-    sound(d);
+    showResult("Max");
+    showResult("Max", 1);
+    showResult("Max", 1, 25);
 }
