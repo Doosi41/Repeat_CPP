@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Practice: polymorphism — one command produces different results for different objects.
+// Practice: function overloading — one name, different input parameters.
 
 void showResult(string name) {
     string name;
@@ -13,7 +13,6 @@ void showResult(string name) {
 }
 
 void showResult(string name, int position) {
-    string name;
     int position;
 
     cout << "Name of pilot: " << name << endl;
@@ -24,8 +23,6 @@ void showResult(string name, int position) {
 }
 
 void showResult(string name, int position, int points) {
-    string name;
-    int position;
     int points;
 
     cout << "Name of pilot: " << name << endl;
