@@ -14,11 +14,10 @@
 
 <img src="assets/lessons/01-classes-objects.svg" alt="Classes &amp; Objects" width="100%">
 <img src="assets/lessons/02-encapsulation.svg" alt="Encapsulation" width="100%">
-<img src="assets/lessons/03-constructor-destructor.svg" alt="Constructor &amp; Destructor" width="100%">
-<img src="assets/lessons/04-inheritance.svg" alt="Inheritance" width="100%">
-<img src="assets/lessons/05-polymorphism.svg" alt="Polymorphism" width="100%">
-<img src="assets/lessons/06-abstraction.svg" alt="Abstraction" width="100%">
-<img src="assets/lessons/07-extra.svg" alt="Extra" width="100%">
+<img src="assets/lessons/03-inheritance.svg" alt="Inheritance" width="100%">
+<img src="assets/lessons/04-polymorphism.svg" alt="Polymorphism" width="100%">
+<img src="assets/lessons/05-abstraction.svg" alt="Abstraction" width="100%">
+<img src="assets/lessons/06-extra.svg" alt="Extra" width="100%">
 
 <br>
 <br>
