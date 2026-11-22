@@ -19,25 +19,6 @@
 <img src="assets/lessons/05-abstraction.svg" alt="Abstraction" width="100%">
 <img src="assets/lessons/06-extra.svg" alt="Extra" width="100%">
 
-<a name="structure"></a>
-<img src="assets/titles/structure.svg" alt="Structure" width="100%">
-
-```
-repeat/
-├── OOP/                      ← lessons (theory + code)
-│   ├── principles.md
-│   ├── 01_encapsulation.cpp
-│   └── ...
-├── assets/                   ← all the neon images
-│   ├── hero.svg
-│   ├── titles/
-│   └── lessons/
-├── README.md
-└── README.ru.md
-```
-
-<br>
-
 <img src="assets/footer.svg" alt="Повторение — мать учения." width="100%">
 
 <p align="center">
