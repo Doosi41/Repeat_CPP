@@ -19,23 +19,6 @@
 <img src="assets/lessons/05-abstraction.svg" alt="Abstraction" width="100%">
 <img src="assets/lessons/06-extra.svg" alt="Extra" width="100%">
 
-<br>
-<br>
-
-<a name="run"></a>
-<img src="assets/titles/run.svg" alt="Run" width="100%">
-
-```bash
-# compile
-clang++ -std=c++17 OOP/01_encapsulation.cpp -o box
-
-# run
-./box
-# Volume of Box: 210
-```
-
-<br>
-
 <a name="structure"></a>
 <img src="assets/titles/structure.svg" alt="Structure" width="100%">
 
