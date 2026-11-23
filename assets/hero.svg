@@ -15,15 +15,11 @@
 <text x="76" y="354" font-size="24" font-weight="500" fill="#8e8e93">Повторяю ООП на C++ · шаг за шагом · C++17</text>
 <g transform="translate(742,130)">
 <rect width="386" height="340" rx="24" fill="url(#tile)" stroke="#ffffff" stroke-opacity="0.1"/>
-<g font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
-<text x="28" y="52"><tspan fill="#ff375f">class</tspan><tspan fill="#64d2ff"> Box</tspan><tspan fill="#8e8e93"> {</tspan></text>
-<text x="52" y="90"><tspan fill="#bf5af2">private</tspan><tspan fill="#8e8e93">:</tspan></text>
-<text x="76" y="126"><tspan fill="#0a84ff">double</tspan><tspan fill="#e5e5ea"> length</tspan><tspan fill="#8e8e93">;</tspan></text>
-<text x="76" y="162"><tspan fill="#0a84ff">double</tspan><tspan fill="#e5e5ea"> breadth</tspan><tspan fill="#8e8e93">;</tspan></text>
-<text x="52" y="198"><tspan fill="#bf5af2">public</tspan><tspan fill="#8e8e93">:</tspan></text>
-<text x="76" y="234"><tspan fill="#0a84ff">double</tspan><tspan fill="#e5e5ea"> volume</tspan><tspan fill="#8e8e93">();</tspan></text>
-<text x="28" y="270"><tspan fill="#8e8e93">};</tspan></text>
-<text x="28" y="314"><tspan fill="#636366">// hide data, show doors</tspan></text>
+<g font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+<text x="28" y="52"><tspan fill="#ff375f">#include</tspan><tspan fill="#e5e5ea"> &lt;iostream&gt;</tspan></text>
+<text x="28" y="124"><tspan fill="#0a84ff">int</tspan><tspan fill="#e5e5ea"> main</tspan><tspan fill="#8e8e93">() {</tspan></text>
+<text x="52" y="172"><tspan fill="#64d2ff">std</tspan><tspan fill="#8e8e93">::</tspan><tspan fill="#e5e5ea">cout </tspan><tspan fill="#8e8e93">&lt;&lt;</tspan><tspan fill="#ff9f0a"> "Hello, world!"</tspan><tspan fill="#8e8e93">;</tspan></text>
+<text x="28" y="220"><tspan fill="#8e8e93">}</tspan></text>
 </g>
 </g>
 </g>
