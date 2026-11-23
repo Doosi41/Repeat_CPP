@@ -11,8 +11,7 @@
 <g clip-path="url(#card)"><rect width="1200" height="600" fill="#000000"/><rect width="1200" height="600" fill="url(#spot)"/><rect width="1200" height="600" fill="url(#glow)"/></g>
 <rect x="0.5" y="0.5" width="1199" height="599" rx="31.5" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
 <text x="72" y="220" font-size="102" font-weight="800" letter-spacing="-4" fill="url(#titanium)" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace">Repeat_CPP</text>
-<text x="76" y="300" font-size="42" font-weight="700" letter-spacing="-1" fill="url(#ai)">Object-Oriented Programming</text>
-<text x="76" y="354" font-size="24" font-weight="500" fill="#8e8e93">Повторяю ООП на C++ · шаг за шагом · C++17</text>
+<text x="76" y="326" font-size="42" font-weight="700" letter-spacing="-1" fill="url(#ai)">Repo for repeat cpp</text>
 <g transform="translate(742,130)">
 <rect width="386" height="340" rx="24" fill="url(#tile)" stroke="#ffffff" stroke-opacity="0.1"/>
 <g font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
