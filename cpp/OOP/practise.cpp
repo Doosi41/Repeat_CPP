@@ -9,26 +9,33 @@ class Motorcycle {
     public:
         string brand;
         int engineCC;
+        int maxSpeed;
 
-        Motorcycle(string brand, int engineCC) {
-            this->brand = brand;
-            this->engineCC = engineCC;
+        Motorcycle(string brand, int engineCC, int maxSpeed) {
+            this -> brand = brand;
+            this -> engineCC = engineCC;
+            this -> maxSpeed = maxSpeed;
         };
 
         void printBr() {
-            cout << "The brand of moto: " << brand << endl;
+            cout << "brand of moto: " << brand << endl;
         }
 
         void printCC() {
-            cout << "The power of moto: " << engineCC << endl;
+            cout << "power of moto: " << engineCC << endl;
+        }
+
+        void printMaxSpeed() {
+            cout << "max speed of moto: " << maxSpeed<< endl;
         }
 };
 
 
 int main() {
-    Motorcycle bike("Yamaha R1 2008", 1000);
+    Motorcycle bike("Yamaha R1 2008", 1000, 299);
     bike.printBr();
     bike.printCC();
+    bike.printMaxSpeed();
 
     return 0;
 }
