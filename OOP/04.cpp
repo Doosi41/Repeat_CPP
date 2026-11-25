@@ -11,7 +11,8 @@ class Race{
         int laps;
 };
 
-class SprintRace : public Race {
+class SprintRace // we Inheritance from Race all :)
+: public Race {
     public:
         int sprintPoints;
 };
